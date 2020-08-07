@@ -1,0 +1,177 @@
+.menu-body {
+    height: 100vh;
+    background-color: #010101;
+}
+
+.menu-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.menu-title {
+    margin: 60px auto 100px auto;
+    font-family: Starjedi, serif;
+    font-size: 60px;
+    letter-spacing: 5px;
+    color: #FFE81F;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100px;
+    height: 420px;
+    margin: 0 3vw;
+}
+
+.item-name1 {
+    height: 50px;
+    width: 100px;
+    margin-bottom: 20px;
+    top: 50%;
+    padding-top: 25px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(202, 4, 3, 0.9) 0%, rgba(202, 4, 3, 0.605141) 7.81%, rgba(202, 4, 3, 0.43125) 31.82%, rgba(202, 4, 3, 0) 94.47%);
+
+}
+
+.item-name2 {
+    height: 50px;
+    width: 104px;
+    margin-bottom: 20px;
+    top: 50%;
+    padding-top: 25px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(148, 4, 250, 0.9) 0%, rgba(148, 4, 250, 0.605141) 7.81%, rgba(148, 4, 250, 0.43125) 31.82%, rgba(148, 4, 250, 0) 94.47%);
+}
+
+.item-name3 {
+    height: 50px;
+    width: 104px;
+    margin-bottom: 20px;
+    top: 50%;
+    padding-top: 25px;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(8, 219, 11, 0.75) 0%, rgba(8, 219, 11, 0.504284) 7.81%, rgba(8, 219, 11, 0.359375) 31.82%, rgba(8, 219, 11, 0) 94.47%);
+}
+
+.item-name4 {
+    height: 50px;
+    width: 104px;
+    margin-bottom: 20px;
+    top: 50%;
+    padding-top: 25px;
+    background: radial-gradient(50% 50% at 50% 50%, #0165C5 0%, rgba(1, 101, 197, 0.672379) 7.81%, rgba(1, 101, 197, 0.479167) 31.82%, rgba(1, 101, 197, 0) 94.47%);
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu-item1:hover .item-name1 {
+   opacity: 0;
+   transition: ease-in-out 0.4s;
+}
+
+.menu-item1:hover .bg-red {
+    opacity: 1;
+    transform: scaleY(1);
+    transition: ease-in 0.3s;
+}
+
+.menu-item2:hover .item-name2 {
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+}
+
+.menu-item2:hover .bg-violet {
+    opacity: 1;
+    transform: scaleY(1);
+    transition: ease-in 0.3s;
+}
+
+.menu-item3:hover .item-name3 {
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+}
+
+.menu-item3:hover .bg-green {
+    opacity: 1;
+    transform: scaleY(1);
+    transition: ease-in 0.3s;
+}
+
+.menu-item4:hover .item-name4 {
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+}
+
+.menu-item4:hover .bg-blue {
+    opacity: 1;
+    transform: scaleY(1);
+    transition: ease-in 0.3s;
+}
+
+.bg-red {
+    height: 100vh;
+    width: 30px;
+    margin-left: 1px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background: linear-gradient(90deg, rgba(218, 4, 4, 0.34) 0%, #DA0404 22.32%, #FFFFFF 25.06%, #FFFFFF 49.03%, #FFFFFF 75.27%, #E80404 77.1%, rgba(232, 4, 4, 0.707813) 88.05%, rgba(232, 4, 4, 0.45) 99.01%);
+    opacity: 0;
+    transform: scaleY(0);
+    transition: ease-in 0.15s;
+}
+
+.bg-violet {
+    height: 100vh;
+    width: 30px;
+    margin-left: 1px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background: linear-gradient(90deg, rgba(161, 24, 236, 0.34) 0%, #A118EC 22.32%, #FFFFFF 25.06%, #FFFFFF 49.03%, #FFFFFF 75.27%, #A118EC 77.1%, rgba(161, 24, 236, 0.707813) 88.05%, rgba(161, 24, 236, 0.45) 99.01%);
+    opacity: 0;
+    transform: scaleY(0);
+    transition: ease-in 0.15s;
+}
+
+.bg-green {
+    height: 100vh;
+    width: 30px;
+    margin-left: 1px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background: linear-gradient(90deg, rgba(5, 183, 11, 0.34) 0%, #05B70B 22.32%, #FFFFFF 25.06%, #FFFFFF 49.03%, #FFFFFF 75.27%, #05B70B 77.1%, rgba(5, 183, 11, 0.707813) 88.05%, rgba(5, 183, 11, 0.45) 99.01%);
+    opacity: 0;
+    transform: scaleY(0);
+    transition: ease-in 0.15s;
+}
+
+.bg-blue {
+    height: 100vh;
+    width: 30px;
+    margin-left: 1px;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    background: linear-gradient(90deg, rgba(9, 147, 243, 0.34) 0%, #0993F3 22.32%, #FFFFFF 25.06%, #FFFFFF 49.03%, #FFFFFF 75.27%, #0993F3 77.1%, rgba(9, 147, 243, 0.707813) 88.05%, rgba(9, 147, 243, 0.45) 99.01%);
+    opacity: 0;
+    transform: scaleY(0);
+    transition: ease-in 0.15s;
+}
+
+
